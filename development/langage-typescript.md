@@ -6,43 +6,52 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'intéret de TypeScript dans l'IDE ❌ / ✔️
-- les types de bases ❌ / ✔️
-- comment et pourquoi étendre une interface ❌ / ✔️
-- les classes et les decorators ❌ / ✔️
+- l'intéret de TypeScript dans l'IDE ✔️
+- les types de bases ✔️
+- comment et pourquoi étendre une interface ✔️
+- les classes et les decorators ✔️
 
 ## 💻 J'utilise
 
-### Un exemple personnel commenté ❌ / ✔️
+### Un exemple personnel commenté ✔️
 
-### Utilisation dans un projet ❌ / ✔️
+<!-- Exemple :
+Récupération d'un évènement via son ID
+Fonction réalisant une requête http get et retournant un observable de type Event.
 
-[lien github](...)
+public getEvent(id: number): Observable<Event> {
+    return this.http.get<Event>(this.urlBack + 'events/' + id);
+  }
+  -->
 
-Description :
+### Utilisation dans un projet ✔️
 
-### Utilisation en production si applicable❌ / ✔️
+[lien github](https://github.com/WildCodeSchool/P2_Chop-Ton-Job_Lyon_Javangular_Septembre_2021)
+
+Description : Projet Chop ton job (formation 5 mois WCS)
+
+### Utilisation en production si applicable❌
 
 [lien du projet](...)
 
 Description :
 
-### Utilisation en environement professionnel ❌ / ✔️
+### Utilisation en environement professionnel ✔️
 
-Description :
+Description : Création d'une Webpart sur Sharepoint Online avec React TS
 
 ## 🌐 J'utilise des ressources
 
 ### Titre
 
-- lien
+- https://www.typescriptlang.org/
 - description
 
 ## 🚧 Je franchis les obstacles
 
 ### Point de blocage ❌ / ✔️
 
-Description:
+Description: Algo
 
 Plan d'action : (à valider par le formateur)
 
